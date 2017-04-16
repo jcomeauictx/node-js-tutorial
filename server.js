@@ -16,3 +16,6 @@ app.get('/tpx.gif', function(req, res, next) {
     'Cache-Control': 'public, max-age=0' // or specify expiry to make sure it will call everytime
   });
 });
+app.use(express.static(__dirname + '/public'));
+
+server.listen(1337);
