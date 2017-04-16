@@ -39,7 +39,7 @@
     "node": ">=0.6.14"
   },
   "scripts": {
-    "start": "node server.js",
-    "stop": "killall node"
+    "start": "node server.js & echo $! > run/server.pid",
+    "stop": "kill `cat run/server.pid`"
   }
 }
