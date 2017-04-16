@@ -13,7 +13,7 @@ app.get('/tpx.gif', function(req, res, next) {
   emptygif.sendEmptyGif(req, res, {
     'Content-Type': 'image/gif',
     'Content-Length': emptygif.emptyGifBufferLength,
-    'Cache-Control': 'public, max-age=0' // or specify expiry to make sure it will call everytime
+    'Cache-Control': 'public, max-age=0' // specify expiry to call every time
   });
 });
 app.use(express.static(__dirname + '/public'));
