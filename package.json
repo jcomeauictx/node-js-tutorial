@@ -1,0 +1,40 @@
+{
+  "name": "node-js-tutorial",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alexandru Vladutu",
+    "email": "alexandru.vladutu@gmail.com"
+  },
+  "description": "Basic tracking pixel application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcomeauictx/node-js-tutorial.git"
+  },
+  "contributors": [
+    {
+      "name": "Alexandru Vladutu",
+      "email": "alexandru.vladutu@gmail.com"
+    },
+    {
+      "name": "John Comeau",
+      "email": "jc@unternet.net"
+    }
+  ],
+  "main": "server.js",
+  "keywords": [
+    "example",
+    "tutorial",
+    "pixel",
+    "tracking"
+  ],
+  "dependencies": {
+    "emptygif": ">=0.0.0",
+    "express": ">=2.5.7",
+    "socket.io": ">=0.9.16"
+  },
+  "noAnalyze": true,
+  "license": "Apache-1.1",
+  "engines": {
+    "node": ">=0.6.14"
+  },
+}
