@@ -5,7 +5,7 @@ I put "Apache" as the license but honestly I have no idea.
 
 ## Installation
 
-- `npm install`; ignore the warnings about 
+- `npm install jcomeauictx/node-js-tutorial`; ignore the warnings about 
    [no such file package.json](https://github.com/npm/npm/issues/9161)
 
 ## Running this program
